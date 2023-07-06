@@ -1,0 +1,13 @@
+setup network1 1 3 5 6
+setup network1 2 2 5 6
+setup network1 1 10 5 2
+addUser user1 none network1
+0 0
+addUser user2 none network1
+0 0
+addUser user3 none network1
+0 0
+rentBike 0 0
+rentBike 1 0
+rentBike 2 0
+returnBike 0 0 10

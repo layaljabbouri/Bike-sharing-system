@@ -1,0 +1,38 @@
+setup network1 3 30 10 60
+addUser user1 none network1
+0 0
+addUser user2 none network1
+0 0
+addUser user3 none network1
+0 0
+addUser user4 none network1
+0 0
+addUser user5 none network1
+0 0
+addUser user6 none network1
+0 0
+addUser user7 none network1
+0 0
+addUser user8 none network1
+0 0
+addUser user9 none network1
+0 0
+addUser user10 none network1
+0 0
+rentBike 0 0
+rentBike 1 0
+rentBike 2 0
+rentBike 3 0
+rentBike 4 0
+rentBike 5 1
+rentBike 6 1
+rentBike 7 1
+rentBike 8 2
+rentBike 9 2
+sortStation network1 least_occupied
+returnBike 0 1 10
+returnBike 1 1 10
+returnBike 2 1 10
+returnBike 3 1 10
+sortStation network1 most_used
+

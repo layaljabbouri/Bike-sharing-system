@@ -1,0 +1,19 @@
+setuppp network1 1 2 10 20
+setup network1 1 2 20
+setup network1 1 2 abcd 20
+setup network1 2 1 10 2
+addUser user1 none network2
+addUser user1 none network1
+0 0
+addUser user2 none network1
+5 5
+addUser user3 none network1
+0 5
+displayStation network2 0
+displayStation network1 3
+displayStation network1 0
+displayUser network1 0 
+display network2
+display network1
+rentBike 0 0
+returnBike 0 0 10

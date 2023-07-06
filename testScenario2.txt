@@ -1,0 +1,14 @@
+setup network1 2 10 5 10
+addUser user1 none network1
+0 0
+addUser user2 none network1
+0 0
+displayStation network1 0
+rentBike 0 0
+offline network1 0
+returnBike 0 0 10
+rentBike 1 0
+online network1 0
+returnBike 0 0 10
+rentBike 1 0
+displayStation network1 0

@@ -1,0 +1,13 @@
+setup network1 1 10 5 10
+addUser user1 none network1
+0 0
+addUser user2 vlib network1
+0 0
+addUser user3 vmax network1 
+0 0
+rentBike 0 0
+rentBike 1 0
+rentBike 2 0
+returnBike 0 0 100
+returnBike 1 0 100
+returnBike 2 0 100
